@@ -1,8 +1,7 @@
  
- ## 0xBitcoin 
- [Deployed on Ethereum](https://etherscan.io/address/0xb6ed7644c69416d67b522e20bc294a9a9b405b31)
- 
-![0xbitcoin_small](https://user-images.githubusercontent.com/36060731/35717032-b47d34d0-07aa-11e8-9d1a-48dafbbb2ca0.png)
+ ## Bitcoin 
+
+![bitcoin_small](https://user-images.githubusercontent.com/36060731/35717032-b47d34d0-07aa-11e8-9d1a-48dafbbb2ca0.png)
 
  
  #### An ERC20 token that is mined using PoW through a SmartContract 
@@ -18,7 +17,7 @@
    
  #### How does it work?
  
-Typically, ERC20 tokens will grant all tokens to the owner or will have an ICO and demand that large amounts of Ether be sent to the owner.   Instead of granting tokens to the 'contract owner', all 0xbitcoin tokens are locked within the smart contract initially.  These tokens are dispensed, 50 at a time, by calling the function 'mint' and using Proof of Work, just like mining bitcoin.  Here is what that looks like: 
+Typically, ERC20 tokens will grant all tokens to the owner or will have an ICO and demand that large amounts of Ether be sent to the owner.   Instead of granting tokens to the 'contract owner', all bitcoin tokens are locked within the smart contract initially.  These tokens are dispensed, 50 at a time, by calling the function 'mint' and using Proof of Work, just like mining bitcoin.  Here is what that looks like: 
 
 
      function mint(uint256 nonce, bytes32 challenge_digest) public returns (bool success) {
